@@ -19,4 +19,37 @@
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
 
+    <ImageView
+        android:id="@+id/thumbnailIcon"
+        android:layout_below="@+id/cityText"
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#fff"/>
+    <TextView
+        android:id="@+id/tempText"
+        android:text="12 Deg"
+        android:textStyle="normal"
+        android:textColor="#fff"
+        android:layout_below="@+id/cityText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="42sp"
+        android:layout_toRightOf="@+id/thumbnailIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/windText"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:text="Wind"
+        android:layout_below="@+id/thumbnailIcon"
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/cloudText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 </RelativeLayout>
